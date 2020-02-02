@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DEMO</title>
+
+  <!-- クライアントサイドの処理を行う JavaScript を読み込み -->
+  <script src="js/subsetter.js"></script>
+
+  <!-- ユーザが書く必要のある JavaScript -->
+  <script>
+    window.onload = function() {
+      // 今回は見本のため全ての種類のフォントを読み込む（本来は使う書体・ウエイトのみ）
+      getFont('serif-h', 'SHSserif', 'Heavy');
+      getFont('serif-b', 'SHSserif', 'Bold');
+      getFont('serif-sb', 'SHSserif', 'SemiBold');
+      getFont('serif-m', 'SHSserif', 'Medium');
+      getFont('serif-r', 'SHSserif', 'Regular');
+      getFont('serif-l', 'SHSserif', 'Light');
+      getFont('serif-el', 'SHSserif', 'ExtraLight');
+
+      getFont('sans-h', 'SHSsans', 'Heavy');
+      getFont('sans-b', 'SHSsans', 'Bold');
+      getFont('sans-m', 'SHSsans', 'Medium');
+      getFont('sans-r', 'SHSsans', 'Regular');
+      getFont('sans-n', 'SHSsans', 'Normal');
+      getFont('sans-l', 'SHSsans', 'Light');
+      getFont('sans-el', 'SHSsans', 'ExtraLight');
+    }
+  </script>
+</head>
+<body>
+  <h1>DEMO</h1>
+  <h2>明朝体見本</h2>
+  <h1>
+    <span class="serif-h">あ</span>
+    <span class="serif-b">あ</span>
+    <span class="serif-sb">あ</span>
+    <span class="serif-m">あ</span>
+    <span class="serif-r">あ</span>
+    <span class="serif-l">あ</span>
+    <span class="serif-el">あ</span>
+  </h1>
+  <h1>
+    <span class="serif-h">永</span>
+    <span class="serif-b">永</span>
+    <span class="serif-sb">永</span>
+    <span class="serif-m">永</span>
+    <span class="serif-r">永</span>
+    <span class="serif-l">永</span>
+    <span class="serif-el">永</span>
+  </h1>
+  <h1>
+    <span class="serif-h">아</span>
+    <span class="serif-b">아</span>
+    <span class="serif-sb">아</span>
+    <span class="serif-m">아</span>
+    <span class="serif-r">아</span>
+    <span class="serif-l">아</span>
+    <span class="serif-el">아</span>
+  </h1>
+  <h3 class="serif-h">羅生門</h3>
+  <h4 class="serif-h">芥川龍之介</h4>
+  <p class="serif-l">ある日の暮方の事である。一人の下人げにんが、羅生門らしょうもんの下で雨やみを待っていた。</p>
+  <p class="serif-l">広い門の下には、この男のほかに誰もいない。ただ、所々丹塗にぬりの剥はげた、大きな円柱まるばしらに、蟋蟀きりぎりすが一匹とまっている。羅生門が、朱雀大路すざくおおじにある以上は、この男のほかにも、雨やみをする市女笠いちめがさや揉烏帽子もみえぼしが、もう二三人はありそうなものである。それが、この男のほかには誰もいない。</p>
+  <p class="serif-l">何故かと云うと、この二三年、京都には、地震とか辻風つじかぜとか火事とか饑饉とか云う災わざわいがつづいて起った。そこで洛中らくちゅうのさびれ方は一通りではない。旧記によると、仏像や仏具を打砕いて、その丹にがついたり、金銀の箔はくがついたりした木を、路ばたにつみ重ねて、薪たきぎの料しろに売っていたと云う事である。洛中がその始末であるから、羅生門の修理などは、元より誰も捨てて顧る者がなかった。するとその荒れ果てたのをよい事にして、狐狸こりが棲すむ。盗人ぬすびとが棲む。とうとうしまいには、引取り手のない死人を、この門へ持って来て、棄てて行くと云う習慣さえ出来た。そこで、日の目が見えなくなると、誰でも気味を悪るがって、この門の近所へは足ぶみをしない事になってしまったのである。</p>
+  <h2>ゴシック体見本</h2>
+  <h1>
+    <span class="sans-h">あ</span>
+    <span class="sans-b">あ</span>
+    <span class="sans-m">あ</span>
+    <span class="sans-r">あ</span>
+    <span class="sans-n">あ</span>
+    <span class="sans-l">あ</span>
+    <span class="sans-el">あ</span>
+  </h1>
+  <h1>
+    <span class="sans-h">永</span>
+    <span class="sans-b">永</span>
+    <span class="sans-m">永</span>
+    <span class="sans-r">永</span>
+    <span class="sans-n">永</span>
+    <span class="sans-l">永</span>
+    <span class="sans-el">永</span>
+  </h1>
+  <h1>
+    <span class="sans-h">아</span>
+    <span class="sans-b">아</span>
+    <span class="sans-m">아</span>
+    <span class="sans-r">아</span>
+    <span class="sans-n">아</span>
+    <span class="sans-l">아</span>
+    <span class="sans-el">아</span>
+  </h1>
+  <h3 class="sans-h">羅生門</h3>
+  <h4 class="sans-h">芥川龍之介</h4>
+  <p class="sans-l">ある日の暮方の事である。一人の下人げにんが、羅生門らしょうもんの下で雨やみを待っていた。</p>
+  <p class="sans-l">広い門の下には、この男のほかに誰もいない。ただ、所々丹塗にぬりの剥はげた、大きな円柱まるばしらに、蟋蟀きりぎりすが一匹とまっている。羅生門が、朱雀大路すざくおおじにある以上は、この男のほかにも、雨やみをする市女笠いちめがさや揉烏帽子もみえぼしが、もう二三人はありそうなものである。それが、この男のほかには誰もいない。</p>
+  <p class="sans-l">何故かと云うと、この二三年、京都には、地震とか辻風つじかぜとか火事とか饑饉とか云う災わざわいがつづいて起った。そこで洛中らくちゅうのさびれ方は一通りではない。旧記によると、仏像や仏具を打砕いて、その丹にがついたり、金銀の箔はくがついたりした木を、路ばたにつみ重ねて、薪たきぎの料しろに売っていたと云う事である。洛中がその始末であるから、羅生門の修理などは、元より誰も捨てて顧る者がなかった。するとその荒れ果てたのをよい事にして、狐狸こりが棲すむ。盗人ぬすびとが棲む。とうとうしまいには、引取り手のない死人を、この門へ持って来て、棄てて行くと云う習慣さえ出来た。そこで、日の目が見えなくなると、誰でも気味を悪るがって、この門の近所へは足ぶみをしない事になってしまったのである。</p>
+</body>
+</html>
