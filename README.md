@@ -2,7 +2,7 @@
 
 ダイナミックサブセッティング Web フォント
 
-[動作デモページ](https://dswf.hgrs.me)
+[動作デモページ](https://network-programming.hgrs.me/)
 
 ## サーバサイド
 ### 主なコード
